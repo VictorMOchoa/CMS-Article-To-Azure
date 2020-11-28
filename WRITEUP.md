@@ -1,12 +1,7 @@
-# Write-up Template
+# Write-Up
 
-### Analyze, choose, and justify the appropriate resource option for deploying the app.
+## Summary
+I chose to implement this first project by leveraging the Azure App Service rather than utilizing a Virtual Machine. In considering the scope of this very small project, I thought it was more appropriate in addition to being just plain easier to use an App Service considering that this is my first exposure to working with Azure. All of the considerations such as costs, scalability, availability, and workflow weren't too much of a factor considering that I would only be keeping these resources up until this project is graded. I simply thought of this decision with the idea that this simple CMS project would be limited to what was in the rubric and not much scalability or compute power would be needed, therefore making the App Service the logical choice since it is simpler due to the built-in workflow, not having to deal with any OS maintenance, and its cost.
 
-*For **both** a VM or App Service solution for the CMS app:*
-- *Analyze costs, scalability, availability, and workflow*
-- *Choose the appropriate solution (VM or App Service) for deploying the app*
-- *Justify your choice*
-
-### Assess app changes that would change your decision.
-
-*Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
+## What if scenario
+I would easily change my choice if I knew that there was any possibility that this project would gain enough traffic that there would be stress on the system. As convenient as the App Service may be, it does have hardware/compute limitations that may easily be exhausted if our app was to gain real traction. This is a problem that a VM could easily address. Using a VM would also ensure that me or my organization would have a higher level of control over the specifics of the underlying OS as is often the case in larger companies.
